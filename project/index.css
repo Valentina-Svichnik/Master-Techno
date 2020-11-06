@@ -1,0 +1,151 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.block{
+    padding: 50px 80px;
+}
+
+.size-40{
+    font-size: larger;
+}
+
+.size-25{
+    font-size: small;
+}
+
+.bg-dark{
+    background-color: black;
+    padding: 15px;
+}
+
+.bg-lightblue{
+    background-color: #CED4E2;
+    padding: 15px;
+}
+
+.text-lightblue{
+    color: #CED4E2;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+h2{
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.nav-link{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    letter-spacing: 1px;
+}
+
+.nav-link:hover{
+    font-weight: bold;
+    border-bottom: 1px solid #fff;
+    transition: 80ms;
+}
+
+.link{
+    color: black;
+    letter-spacing: 1px;
+}
+
+.link:hover{
+    font-weight: bolder;
+    transition: 80ms;
+}
+
+.gray{
+    background: linear-gradient(to top, #F8F8F8, #FBFBFB);
+}
+
+.btn{
+    border-radius: 10px;
+    background-color: none;
+    padding: 10px;
+    border: none;
+    width: 25%;
+}
+
+.btn-blue{
+    background-color: #CED4E2;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-blue:hover{
+    background-color: #fff;
+    border: 2px solid #CED4E2;
+    color: #CED4E2;
+}
+
+.rightbox{
+    display: flex;
+    width: auto; 
+}
+
+button{
+    border: none;
+    background: none;
+}
+
+.about{
+    background: url(img/mountains.png) 0 -300px;
+    background-size: cover;
+}
+
+.text{
+    background-color: #fff;
+    opacity: 0.5;
+    padding: 50px;
+    margin-bottom: 200px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.adv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    text-align: center;
+}
+
+.bg-clouds{
+    background: url(img/clouds.png);
+}
+
+.forms{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.labels{
+    margin-bottom: 20px;
+    font-size: x-large;
+}
+
+.inputs{
+    border: none;
+    border-bottom: 1px solid  #CED4E2;
+    padding: 0 0 10px 20px;
+    margin-bottom: 50px;
+}
