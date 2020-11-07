@@ -33,6 +33,10 @@
     padding: 15px;
 }
 
+.bg-gradient{
+    background: linear-gradient(to top, #C6CED9, white);
+}
+
 .text-lightblue{
     color: #CED4E2;
 }
@@ -48,6 +52,10 @@ h2{
     margin: 10px 0;
 }
 
+h3{
+    margin-bottom: 10px;
+}
+
 .nav-link{
     color: white;
     text-decoration: none;
@@ -57,7 +65,7 @@ h2{
 
 .nav-link:hover{
     font-weight: bold;
-    border-bottom: 1px solid #fff;
+    text-decoration: underline;
     transition: 80ms;
 }
 
@@ -71,6 +79,36 @@ h2{
     transition: 80ms;
 }
 
+.carousel{
+    display: grid;
+    grid-template-columns: 1em auto 1em;
+}
+
+.sm-carousel{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hit{
+    background-color: #FF3000;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.screen{
+    display: flex;
+    justify-content: center;
+}
+
+
+.start{
+    align-self: center;
+}
+
 .gray{
     background: linear-gradient(to top, #F8F8F8, #FBFBFB);
 }
@@ -80,7 +118,14 @@ h2{
     background-color: none;
     padding: 10px;
     border: none;
-    width: 25%;
+    width: 20vw;
+}
+
+.btn-border{
+    background-color: #fff;
+    border: 1px solid #FF3000;
+    margin-top: 20px;
+    align-self: center;
 }
 
 .btn-blue{
@@ -89,10 +134,32 @@ h2{
     font-weight: bold;
 }
 
+.btn-orange{
+    background-color: #FF3000;
+    color: white;
+    width: 81%;
+    border-radius: 0;
+    align-self: center;
+
+}
+
 .btn-blue:hover{
     background-color: #fff;
     border: 2px solid #CED4E2;
     color: #CED4E2;
+}
+
+.btn-border:hover{
+    background-color: #FF3000;
+    color: white;
+}
+
+.btn-orange:hover{
+    background-color: #c2614b;
+}
+
+.products{
+    width: 20%;
 }
 
 .rightbox{
@@ -148,4 +215,32 @@ button{
     border-bottom: 1px solid  #CED4E2;
     padding: 0 0 10px 20px;
     margin-bottom: 50px;
+}
+
+.main-footer{
+    background-color: #292929;
+    color: white;
+}
+
+.social-nets{
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+    margin-top: 20px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.small-footer{
+    background-color: black;
+    color: white;
+    padding: 10px 80px;
+}
+
+.pay{
+    margin: 0 10px;
 }
